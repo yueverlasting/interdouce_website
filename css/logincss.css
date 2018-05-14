@@ -1,0 +1,54 @@
+* {
+    margin: 75px 150px 5px 150px;
+    padding: 0;
+    box-sizing: 600px 600px 600px 600px;
+ }
+ 
+ 
+ body
+ {
+     font-size: 32px;
+ }
+
+.card
+{
+    box-sizing: 600px 600px 600px 600px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3);  
+}
+
+
+.control-label {
+    text-align:right;
+    color: black;
+    font-size: 24px;
+    width: 25px;
+}
+
+input[type=text], input[type=password]
+{
+    font-size: 16px;
+    width: 200px;
+    hight : 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left:0;
+    border: 1px solid #ccc;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    margin: 0px auto;
+}
+
+.btn-green
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-green:hover
+{ 
+    background-color: green;
+    cursor: pointer;
