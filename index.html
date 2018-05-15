@@ -28,6 +28,26 @@
                 <li><a href="tip.html" class="active">架站過程</a></li>
                 <li><a href="experience.html" class="active">專案(建置中)</a></li>
             </ul>
+            <p>
+                <script language="JavaScript" type="text/javascript">
+                    function getNowTime(){
+                    var timeDate= new Date();
+                    var tMonth = (timeDate.getMonth()+1) > 9 ? (timeDate.getMonth()+1) : '0'+(timeDate.getMonth()+1);
+                    var tDate = timeDate.getDate() > 9 ? timeDate.getDate() : '0'+timeDate.getDate();
+                    var tHours = timeDate.getHours() > 9 ? timeDate.getHours() : '0'+timeDate.getHours();
+                    var tMinutes = timeDate.getMinutes() > 9 ? timeDate.getMinutes() : '0'+timeDate.getMinutes();
+                    var tSeconds = timeDate.getSeconds() > 9 ? timeDate.getSeconds() : '0'+timeDate.getSeconds();
+                    return timeDate= ' '+ timeDate.getFullYear()+'/'+ tMonth +'/'+ tDate +' '+'-'+'-'+' '+ tHours +':'+ tMinutes +':'+ tSeconds;
+                    }
+                    function countSecond( )
+                    {　 document.getElementById("yu_clock").innerHTML = getNowTime();
+    　                  setTimeout("countSecond( )", 1000)
+                    }
+                    document.write( "<span id=\"yu_clock\"><\/span>" );
+                    countSecond();
+                </script><br>
+                Latest version : 18/05/15 
+                </p>
         </nav>
 
         <center>
@@ -44,15 +64,8 @@
               </ul>
             </nav>
           </div>
-           
         </center>
-
 
     </div>
 </body>
-
-<footer>
-        <p>更新於 : 2018 / 05 / 15 </p>
-</footer>
-
 </html>
