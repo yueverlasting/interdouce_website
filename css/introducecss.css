@@ -29,7 +29,7 @@ header
 header h1
 {
     font-size: 5rem;
-    color: black;
+    color: #012172;
     padding-top: 5px; 
     padding-left: 20px;
     padding-bottom: 20px;
@@ -38,9 +38,12 @@ header h1
     margin-top:25px;
     margin-left:10px;
     width:500px;
-    border:5px #B15BFF solid;
-    box-shadow:3px 3px 12px pink;
-    background-color :#B15BFF;
+    height: 85px;
+    border:5px #ffffff solid;
+    box-shadow:3px 3px 12px #cccccc;
+    background-color :#05acd3;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-shadow : 3px 3px 3px #cccccc;
   
 }
 /*article
@@ -54,16 +57,15 @@ header h1
 {
     font-size:48px;
     text-align: center;
-    color: white;
+    color: #f1f2f3;
     border-radius:20px;
     padding-bottom:10px;
     margin-top:10px;
     margin-left:20px;
     margin-bottom:40px;
     width:500px;
-    border:5px 	#0080FF solid;
     box-shadow:3px 3px 12px gray;
-    background-color :	#0080FF;
+    background-color :	#81a3a7;
     font-family:monospace;
 }
 a
