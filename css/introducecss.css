@@ -24,21 +24,19 @@ header
     background-repeat: no-repeat;
 }
 
-
-
 header h1
 {
     font-size: 5rem;
     color: #012172;
     padding-top: 5px; 
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     border-radius:10px;
     margin-top:25px;
     margin-left:10px;
-    width:500px;
-    height: 85px;
+    width:600px;
+    height:auto;
     border:5px #ffffff solid;
     box-shadow:3px 3px 12px #cccccc;
     background-color :#05acd3;
@@ -46,12 +44,6 @@ header h1
     text-shadow : 3px 3px 3px #cccccc;
   
 }
-/*article
-{
-    margin: 0 0 0 250px;
-    padding: 20px 0;
-    font-size:36px;
-}*/
 
  h2
 {
@@ -82,6 +74,7 @@ p
     font-family: 'Pangolin', cursive;
     font-weight:bold;
     font-size: 26px;
+    
 }
 
 

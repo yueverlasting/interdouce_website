@@ -47,7 +47,7 @@ article
 article h2
 {
     font-size:36px;
-    padding-top: 2px;
+    padding-top: 5px;
     text-align: center;
     color: white;
     border-radius:10px;
@@ -57,13 +57,14 @@ article h2
     border:2px 	#F4E3B1 solid;
     box-shadow:3px 3px 12px gray;
     background-color :	#5398D9;
+    font-family: Microsoft JhengHei, serif;
 }
 article p
 {
     font-size:24px;
     margin-top:20px;
     line-height:40px;
-    font-family: 'cwTeXYen', sans-serif;
+    font-family: Microsoft JhengHei, serif;
     font-weight: 800;
 }
 pre {

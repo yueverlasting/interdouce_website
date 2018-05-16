@@ -22,39 +22,32 @@ body
  #menu ul{
   list-style:left;
   margin-top: 10px; 
+
   margin-left: 50px;
   }
 
   #menu ul li{
   margin:25px 100px 0px 0px;
   font-family: 'Gloria Hallelujah', cursive;
+  list-style:none;
   }
   #menu ul p{
   margin:25px 100px 0px 0px;
   color: black;
   padding-top: 5px; 
   font-size:24px;
-  font-family: DFKai-sb;
   line-height: 35px;
-  font-family: ‘cwTeXFangSong’, serif;
+  font-family: Microsoft JhengHei, serif;
   }
   #menu ul h3{
   padding-top: 5px;
+  padding-bottom: 5PX;
 }
- /*h1
-{
-    font-size: 36px;
-    color: black; 
-    text-align: center;
-    border-radius:10px;
-    width:150px;
-    border:5px #ff2965 solid;
-    box-shadow:3px 3px 12px pink;
-    background-color :#ff9933;
-    padding: 5px 5px 5px 5px ;
-}*/
+
 h1 {
-    width: 140px;
+    font-size: 42px;
+    text-align: center;
+    width: 200px;
     height: 80px;
     background: #ff9933;
     position: relative;
@@ -68,27 +61,40 @@ h1:before {
     width: 0;
     height: 0;
     right: 100%;
-    top: 38px;
+    top: 30px;
     position: absolute;
     border-top: 13px solid transparent;
     border-right: 26px solid #ff9933;
     border-bottom: 13px solid transparent;
 }      
-h2
-{
-    font-size: 36px;
-    color: black;
-    text-align:center;
-    border-radius:10px;
-    width:200px;
-    border:5px #ff2965 solid;
-    box-shadow:3px 3px 12px pink;
-    background-color :#ff9933;
-    padding: 5px 5px 5px 5px ;
-}
 
+h2 {
+    font-size: 42px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background: #ff9933;
+    position: relative;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+  
+h2:before {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 30px;
+    position: absolute;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #ff9933;
+    border-bottom: 13px solid transparent;
+
+} 
 p2{
     font-size: 12px;
-    padding-bottom: 10px;
+    font-family: cursive;
+    font-weight: bold;
 }
 
