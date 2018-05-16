@@ -24,35 +24,33 @@ header
     background-repeat: no-repeat;
 }
 
-header h1
+header h1  /*標題 人名*/
 {
-    font-size: 5rem;
+    font-size: 54px;
     color: #012172;
-    padding-top: 5px; 
     padding-left: 20px;
     padding-bottom: 10px;
     text-align: center;
     border-radius:10px;
-    margin-top:25px;
-    margin-left:10px;
-    width:600px;
+    margin: 20px 0px 20px 10px ; /*上 右 下 左*/
+    width: 600px ;
     height:auto;
     border:5px #ffffff solid;
     box-shadow:3px 3px 12px #cccccc;
     background-color :#05acd3;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     text-shadow : 3px 3px 3px #cccccc;
   
 }
 
- h2
+ h2  /*小標 about me*/
 {
     font-size:48px;
     text-align: center;
     color: #f1f2f3;
     border-radius:20px;
     padding-bottom:10px;
-    margin-top:10px;
+    margin-top:20px;
     margin-left:20px;
     margin-bottom:40px;
     width:500px;
